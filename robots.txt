@@ -1,0 +1,10 @@
+Host: diglossa.org
+
+User-agent: Yandex
+Allow: /
+Sitemap: http://ru.diglossa.org/ru_sitemap_0.xml
+
+User-agent: Googlebot
+Allow: /
+Sitemap: http://en.diglossa.org/en_sitemap_0.xml
+

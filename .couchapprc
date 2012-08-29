@@ -1,0 +1,11 @@
+
+{
+  "env": {
+    "default": {
+      "db": "http://admin:kjre4317@localhost:5984/diglossa"
+    },
+    "production": {
+      "db": "http://admin:kjre4317@localhost:5984/diglossa"
+    }
+  }
+}

@@ -1,0 +1,279 @@
+* {
+    padding: 0; margin: 0;
+}
+
+.left {float: left; margin-right: 0.5em;}
+.right {float: right; margin-left: 0.5em;}
+.small {font-size: smaller;}
+.large {font-size: larger;}
+.hide {display: none;}
+dfn { font-weight: bold; }
+a {color: maroon;text-decoration: none;outline: 0;}
+
+p {
+    /* text-align: center; */
+    margin-bottom: 1em;
+    height: auto;
+}
+h1,h2,h3,h4{
+    color:maroon;
+    padding-top:2em;
+    padding-bottom:1em;
+}
+h1,h2{
+    padding-left:30px;
+}
+h3{
+    font-size: larger;
+}
+.ash3 {
+    font-size: 21px;
+    line-height: 21px;
+    color: maroon;
+    font-weight: 600;
+    margin-top: 40px; 
+    margin-bottom: 10px; 
+}
+.ash4 {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: maroon;
+}
+
+dt{
+    color: maroon;
+    margin-top: 0.5em;
+    font-weight: bold; 
+}
+dd{
+    margin-left: 0.5em;
+}
+html, body{
+    height: 100%;            /* ie 6 will use this instead of min-height */
+    color: #333; 
+    min-height: 100%;    
+}
+body {
+    font-family: "DejaVu Sans", "Helvetica Neue", verdana, Arial, helvetica, sans-serif;
+    /* font-family: "Arial Unicode MS", "Tahoma"; */
+    line-height: 18px;
+    background: #f5deb3;
+    background: #eee8aa; /*#ffdead;  #d2b48c; */
+    color: #333; 
+    font-size: 12px; 
+    overflow:hidden; 
+}
+#container {
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 100%;    
+    height: 100%;
+    padding:1em;
+}
+
+.pages {
+    margin-right: 180px;
+    height: 100%;
+}
+.page {
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    float:left;
+    width:100%;
+    height: 100%;
+    padding:1em;
+    padding-right:0;
+
+/*    margin-right:200px; */
+    border-right:0;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    -moz-box-shadow: rgba(0,0,0,0.75) 0.25em 0.25em 1em;
+    -webkit-box-shadow: 0.25em 0.25em 1em rgba(0,0,0,0.75);
+    box-shadow: 0.25em 0.25em 1em rgba(0,0,0,0.75);
+
+    background: #ffffee;
+/*    overflow: hidden; */
+    behavior: url(/css/PIE.htc);
+}
+.page_0 {
+    width: 48%;
+    border-right:0;
+    margin-right: 3px;
+}
+.page_1 {
+    width: 50%;
+    border-left:0;
+    padding-left: 1em;
+    margin-right:0;
+}
+#page_1{
+    display: none;
+}
+.header{
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left:1em;
+    padding-right:1em;
+    height: auto;
+/*    height: 2em; */
+    min-height:2em;
+    max-height:75%;
+    width: 35%;
+    position: fixed;
+    z-index: 100;
+    overflow:hidden;
+    /* border-bottom: 1px solid grey; */
+}
+.border-bottom{
+    border-bottom: 1px solid grey;
+}
+.view{
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:1em;
+    tabindex: 100;
+    outline:0;
+    height:95%;
+    overflow:auto;
+    padding-top:1em;
+    padding-left:1em;
+    padding-right:1em;
+    margin-top: 1em;
+    position:relative;
+}
+#view_1{
+    overflow: hidden;
+}
+
+.panel {
+    float:right;
+    width: 140px;
+/**    border: 1px solid grey; **/
+    height:300px;
+    padding: 1em;
+}
+#home{
+    float: left;
+}
+.maroon{
+    color: maroon;
+}
+
+.i18n{
+    float: right;
+    margin-right: 3 em;
+}
+#content-search{
+    float:right;
+    margin-right:3em;
+}
+.border{
+    border: 1px solid maroon;
+}
+.meander{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-image: url('/css/images/meander.gif');
+    background-repeat: repeat-x;
+    padding-top:1em;
+    padding-left:30px;
+}
+#book{
+    border:0;
+}
+#blazon{
+    position:absolute;
+    bottom:0;
+    padding-left:30px;
+    margin: 0 auto; 
+}
+.window {
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    z-index: 9;
+    width: 50%;
+    max-height: 400px; 
+/*    height: auto; */
+    margin: 0px;
+    padding: 10px;
+    border-style: outset;
+    background: #fff8dc; 
+    background: #fbf7aa; 
+    color:"#A27D35"
+    text-align: left;
+    overflow: auto;
+    -webkit-box-shadow: 0.25em 0.25em 0.5em rgba(0,0,0,0.25);
+    -moz-box-shadow: rgba(0,0,0,0.25) 0.25em 0.25em 0.5em;
+    border: 1px solid maroon; 
+}
+span.vox span.dynatree-icon {
+    background-position: 0 0;
+    background-image: url("/css/skin-vista/amarok.png");
+}
+.hl{
+  /*background-color: lightgrey; */
+  border-bottom: 2px solid grey; 
+}
+.dict{
+    padding-left: 10px;
+}
+.dict b{
+    color:maroon;
+}
+.form-line b{
+    color:maroon;
+}
+.word{
+    cursor: pointer;
+}
+#dict-ref{
+    cursor: pointer;
+    color:maroon;
+}
+#morph-header{
+    border-bottom: 1px solid maroon; 
+    margin-bottom: 10px; 
+}
+.morph-header{
+    padding-left: 10px; 
+    padding-right: 10px; 
+    cursor: pointer;
+    color:maroon;
+}
+.disabled{
+    color: LightGrey;
+}
+.search-results-link{
+    cursor: pointer;
+    list-style: none;
+}
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+.search{
+    cursor: pointer;
+    color:maroon;
+}
+
+.hidden{
+    display: none;
+}
+.invisible{
+    visibility: hidden;
+}
+ 

@@ -1,0 +1,22 @@
+{
+  "bundle_dir": "js",
+  "compressed_suffix": ".min",
+  "vendor_dir": "js/vendor",
+  "bundles": {
+    "default": [
+      "jquery.min",
+      "jquery-ui.custom.min",
+      "jquery.hotkeys",
+      "jquery.dynatree.min",
+      "jquery.mousewheel",
+      "date.format",
+      "underscore", 
+      "sammy", 
+      "sammy.template",
+      "sammy.storage",
+      "sammy.remote",
+      "sha1",
+      "js/app"
+    ]
+  }
+}
